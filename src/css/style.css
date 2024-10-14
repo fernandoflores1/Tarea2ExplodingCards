@@ -8,7 +8,7 @@
     --img-size: 40px;
     --container-height: 100vh;
     --main-width: 20%;
-    --main-height: 60%;
+    --main-height: 38rem;
     --gradient-bomb: linear-gradient(to bottom, #3a3a3a, #8b8b8b);
     --gradient-defuse: linear-gradient(to bottom, #3C763D, #8FBC8F);
     --gradient-skip: linear-gradient(to bottom, #87CEFA, #4682B4);
@@ -32,11 +32,12 @@ main {
     width: var(--main-width);
     height: var(--main-height);
     border: 2px solid var(--border-color);
-    border-radius: var(--spacing); /* Usando la variable de spacing */
+    border-radius: var(--spacing);
     box-shadow: 0px 4px 8px var(--shadow-color);
     background-color: var(--bg-color);
-    padding: var(--spacing); /* Usando la misma variable */
+    padding: var(--spacing);
     font-size: var(--font-size-large);
+    padding: 10px;
 }
 
 #up,
@@ -51,6 +52,8 @@ main {
 #down img {
     width: var(--img-size);
     height: var(--img-size);
+    margin: 1.5rem;
+    margin-bottom: 5rem;
 }
 
 #typeDescription h2,
