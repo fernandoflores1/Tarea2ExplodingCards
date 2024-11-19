@@ -46,6 +46,7 @@ main {
     justify-content: space-between;
     width: 100%;
     align-items: center;
+    height: 20%;
 }
 
 #up img,
